@@ -1,10 +1,11 @@
 {
-  "ignores": ["*rawValue", "**tsAdded", "*price", "*currency", "*cnt","*volDiff*"],
-  "sorts": ["addresses"],
+  "ignores": ["*balance","*max","*updated","*timestamp","*noPrice"],
+  "sorts": [],
   "typeOnly": [],
-  "toStrings": [],
+  "toStrings": ["*transfers"],
+  "roundNumbers": ["*volume"],
   "sortsBy": [
-    { "path": "tokens", "keys": ["tokenInfo.address"], "orders": ["asc"] }
+    { "path": "history.data", "keys": ["date"], "orders": ["asc"] }
   ],
   "showFullResponse": false
 }
