@@ -1,5 +1,5 @@
 {
-  "ignores": ["timestamp","updated"],
+  "ignores": ["*updated","*timestamp"],
   "sorts": [],
   "typeOnly": [],
   "toStrings": ["*transfers"],
