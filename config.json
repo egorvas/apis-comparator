@@ -1,5 +1,5 @@
 {
-  "ignores": ["*balance","*max","*updated","*timestamp","*noPrice"],
+  "ignores": ["timestamp","updated"],
   "sorts": [],
   "typeOnly": [],
   "toStrings": ["*transfers"],
